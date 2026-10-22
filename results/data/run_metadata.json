@@ -1,0 +1,35 @@
+{
+  "python_version": "3.12.10",
+  "numpy_version": "2.5.4",
+  "pandas_version": "3.0.6",
+  "matplotlib_version": "3.11.2",
+  "n_cells": [
+    20,
+    40,
+    80
+  ],
+  "n_realizations": 100,
+  "t1": 0.5,
+  "t2": 1.0,
+  "disorder_strengths": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5
+  ],
+  "disorder_models": [
+    "hopping",
+    "onsite"
+  ],
+  "seed": 20261021,
+  "edge_cells": 4,
+  "edge_selection": "two highest edge weights among states with |E| < |t2-t1| and edge weight >= 0.5",
+  "edge_selection_rate": 1.0
+}
